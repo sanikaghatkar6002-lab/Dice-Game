@@ -1,0 +1,84 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+.roll-btn{
+  margin-top:30px;
+  padding:12px 28px;
+  font-size:20px;
+  font-family: 'Indie Flower',cursive;
+  background: linear-gradient(45deg, #ff4e50);
+  color:white;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0,3);
+  transition: 0.3s;
+}
+.roll-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0,4);
+}
+.roll-btn:active{
+  transform: scale(0.95);
+}
+ @media(max-width:768px){
+  .container{
+    width: 95%;
+  }
+  h1{
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+  .dice{
+    display: block;
+    margin: 20px auto;
+  }
+  img{
+    widthL:140px
+  }
+  p{
+    font-size:1.5rem;
+  }
+  .roll-btn{
+    font-size:16px;
+    padding:10px 22px;
+  }
+ }
